@@ -1,0 +1,101 @@
+body {
+    background-color:#f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+.container {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+
+}
+#main-header {
+    background-color :grey;
+    color:#fff;
+}
+#navbar  {
+
+    background-color: #333;
+    color:#fff;
+
+}
+.zoom-images img {
+    display: inline-block;
+    height: 200px;
+    margin-block-start: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+    overflow: hidden;
+
+}
+img:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+
+}
+#navbar ul {
+    padding:0;
+    list-style:none;
+}
+#navbar li {
+    display:inline;
+}
+#navbar a {
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 40px;
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+#showcase {
+    background-color: cadetblue;
+    margin: auto;
+    min-height:200px;
+    margin-bottom: 300px;
+}
+#showcase h1 {
+
+    color:#fff;
+    font-size:30px;
+    line-height:1.6em;
+    padding-top:30px;
+
+}
+#main {
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+#sidebar {
+    float:right;
+    width:30%;
+    background: #333;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+#main-footer {
+    background :#333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+@media(max-width:898px) {
+    #main {
+        width:100%;
+        float:none;
+    }
+    #navbar a {
+        display: block;
+    }
+}
